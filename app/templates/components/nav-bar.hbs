@@ -2,49 +2,49 @@
 	<!-- Navigation -->
 	<div class="center" style="width: 950px;">
 		<div class="navbar-header">
-			<a href="#" class="home-icon block links"><img src="img/brand.png"/></a>
+			{{#link-to "index" class="home-icon block links"}}<img src="img/brand.png"/>{{/link-to}}
 		</div>
 		<nav class="navbar navbar-static-top" role="navigation">
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div id="topnavdiv" class="collapse navbar-collapse">
 				<ul id="topnav" class="nav navbar-nav">
 					<li class="navbar-button">
-						<a href="#">首頁</a>
+						{{#link-to "index"}}首頁{{/link-to}}
 					</li>
 					<li class="dropdown navbar-button">
-						<a href="#aboutus">關於我們</a>
+						{{#link-to "aboutus"}}關於我們{{/link-to}}
 						<ul class="dropdown-menu navbar-button">
 							<li class="navbar-button">
-								<a href="#missiondeclaration">使命宣言</a>
+								{{#link-to "aboutus.missiondeclaration"}}使命宣言{{/link-to}}
 							</li>
 							<li class="navbar-button">
-								<a href="#faithdeclaration">信仰宣言</a>
+								{{#link-to "aboutus.faithdeclaration"}}信仰宣言{{/link-to}}
 							</li>
 							<li class="navbar-button">
-								<a href="#history">發展歷史</a>
+								{{#link-to "aboutus.history"}}發展歷史{{/link-to}}
 							</li>
 							<li class="navbar-button">
-								<a href="#orgchart">組織架構</a>
+								{{#link-to "aboutus.orgchart"}}組織架構{{/link-to}}
 							</li>
 							<li class="navbar-button">
-								<a href="#budget">財政報告</a>
+								{{#link-to "aboutus.budget"}}財政報告{{/link-to}}
 							</li>
 						</ul>
 					</li>
 					<li class="dropdown navbar-button">
-						<a href="#products">音樂產品</a>
+						{{#link-to "products"}}音樂產品{{/link-to}}
 					</li>
 					<li class="navbar-button">
-						<a href="#supportus">你的支持</a>
+						{{#link-to "supportus"}}你的支持{{/link-to}}
 					</li>
 					<li class="navbar-button">
-						<a href="#gallery">相片重溫</a>
+						{{#link-to "gallery"}}相片重溫{{/link-to}}
 					</li>
 					<li class="navbar-button">
-						<a href="#news">最新動向</a>
+						{{#link-to "news"}}最新動向{{/link-to}}
 					</li>
 					<li class="navbar-button">
-						<a href="#contactus">聯絡我們</a>
+						{{#link-to "contactus"}}聯絡我們{{/link-to}}
 					</li>
 
 				</ul>
@@ -70,47 +70,45 @@
 			<div class="collapse navbar-collapse" id="navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li class="sidebar-brand">
-						<a href="#">
-						   ACMLA
-						</a>
+						{{#link-to "index"}}ACMLA{{/link-to}}
 					</li>
 					<li>
-						<a href="#">首頁</a>
+						{{#link-to "index"}}首頁{{/link-to}}
 					</li>
 					<li>
-						<a href="#aboutus" class="dropdown-toggle" data-toggle="dropdown">關於我們</a>
+						{{#link-to "aboutus" class="dropdown-toggle" data-toggle="dropdown"}}關於我們{{/link-to}}
 						<ul class="dropdown-menu" role="menu">
 							<li>
-								<a href="#missiondeclaration">使命宣言</a>
+								{{#link-to "aboutus.missiondeclaration"}}使命宣言{{/link-to}}
 							</li>
 							<li>
-								<a href="#faithdeclaration">信仰宣言</a>
+								{{#link-to "aboutus.faithdeclaration"}}信仰宣言{{/link-to}}
 							</li>
 							<li>
-								<a href="#history">發展歷史</a>
+								{{#link-to "aboutus.history"}}發展歷史{{/link-to}}
 							</li>
 							<li>
-								<a href="#orgchart">組織架構</a>
+								{{#link-to "aboutus.orgchart"}}組織架構{{/link-to}}
 							</li>
 							<li>
-								<a href="#budget">財政報告</a>
+								{{#link-to "aboutus.budget"}}財政報告{{/link-to}}
 							</li>
 						</ul>
 					</li>
 					<li>
-						<a href="#products">音樂產品</a>
+						{{#link-to "products"}}音樂產品{{/link-to}}
 					</li>
 					<li>
-						<a href="#supportus">你的支持</a>
+						{{#link-to "supportus"}}你的支持{{/link-to}}
 					</li>
 					<li>
-						<a href="#gallery">相片重溫</a>
+						{{#link-to "gallery"}}相片重溫{{/link-to}}
 					</li>
 					<li>
-						<a href="#news">最新動向</a>
+						{{#link-to "news"}}最新動向{{/link-to}}
 					</li>
 					<li>
-						<a href="#contactus">聯絡我們</a>
+						{{#link-to "contactus"}}聯絡我們{{/link-to}}
 					</li>
 
 				</ul>
