@@ -14,12 +14,23 @@
 
     {{content-for "head-footer"}}
   </head>
-  <body>
+  <body class="all">
     {{content-for "body"}}
 
     <script src="{{rootURL}}assets/vendor.js"></script>
     <script src="{{rootURL}}assets/acmla.js"></script>
+    <script src="{{rootURL}}js/jquery.slides.min.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{rootURL}}js/index.js"></script>
+    <div id="wrapper">
+      <div id="container"></div>
+    </div>
+
 
     {{content-for "body-footer"}}
+    <div id="footer" class="text-center">
+      <div>&copy; 2017 Hong Kong Association of Christian Music Ministry Ltd. (Los Angeles Branch) </div>
+      <div> 5632 Rosemead Blvd, Temple City, CA 91780 &#9899; 626-737-9025 &#9899; <a href="http://www.acm-la.org" target="_blank">www.acm-la.org</a> &#9899; <a href="http://www.facebook.com/ACMLA.US" target="_blank"><img src="{{rootURL}}img/facebook-link-icon.png"/></a> <a href="http://www.facebook.com/ACMLA.US" target="_blank">www.facebook.com/ACMLA.US</a></div>
+    </div>
   </body>
 </html>

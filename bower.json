@@ -1,0 +1,31 @@
+{
+  "name": "acmla",
+  "version": "0.0.0",
+  "authors": [
+    "Andrew Cheung <ac1493@yp.com>"
+  ],
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "keywords": [
+    "acmla"
+  ],
+  "license": "MIT",
+  "homepage": "acm-la.org",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.7",
+    "jquery.lazyload": "~1.9.7",
+    "jquery": "~3.2.1"
+  }
+}
