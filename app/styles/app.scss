@@ -1,3 +1,5 @@
+@import "ember-side-menu";
+
 html, body {
 	font-family: Arial, SimSun, SimHei, Heiti SC, Heiti TC, Microsoft JhengHei, Microsoft YaHei, sans-serif;
 	min-height:100%;
@@ -88,15 +90,19 @@ html {
 	padding-bottom: 0px;
 }
 
-.navbar .navbar-toggle:hover {
+.navbar-toggle:hover {
 	background-color: #8a2e7e;
+}
+
+.navbar-static-top .navbar-toggle:hover .icon-bar {
+	background-color: #fadefe;
 }
 
 #topnav li.dropdown a.open, #topnav li.dropdown a.open:focus, #topnav li.dropdown a.open:hover {
 	color: #ffffff;
 	background-color: #aa4e9e;
 }
-.navbar .navbar-toggle:active {
+.navbar-toggle:active {
 /*background-color: #fadefe;*/
 	background-color: #8a2e7e;
 }
