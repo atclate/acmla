@@ -14,9 +14,9 @@ foreach (array_filter(array_reverse($files_in_root, true), function($item) {
 				global $sub;
 				return (!is_dir($sub."/".$item_in_sub));
 			}) as &$file) {
-			echo "			<a href=\"".$sub."/".$file."\" title=\"".$file."\" data-gallery>"; //Actual image
-			echo "				<div><img src=\"".$sub."/thumbnails/".$file."\" alt=\"".$file."\" class=\"img-responsive\"></div>"; //Thumbnail
-			echo "			</a>";
+			echo "			<a href=\"".$sub."/".$file."\" title=\"".$file."\" data-gallery>\n"; //Actual image
+			echo "				<div><img src=\"".$sub."/thumbnails/".$file."\" alt=\"".$file."\" class=\"img-responsive\"></div>\n"; //Thumbnail
+			echo "			</a>\n";
 		}
 }
 ?>
