@@ -1,16 +1,25 @@
 import Ember from 'ember';
 
-export default Ember.Route.extend({
-	model() {
-		return Ember.$.getJSON('http://acm-la.org/slides.php', (data) => {
-			return data;
-		});
-	},
-	actions: {
-		didTransition() {
-			//Ember.run.next(this, 'initSlides');
+export default Ember.Component.extend({
+  init() {
+    this._super(...arguments);
+  },
+  didRender() {
+    this._super(...arguments);
+	let component = this;
+	let default_slides = this.get('default_slides');
+    let promise = Ember.$.getJSON('http://acm-la.org/slides.php', (data) => {
+	  return data;
+    });
+	promise.then(function(data){
+		for (let e of data) {
+			Ember.$('#slides').append($('<img>', {src: e["src"], width: e["width"], height: e["height"]}));
 		}
-	},
+		Ember.run.next(component, 'initSlides');
+    }, function(error) {
+		console.log(error);
+    });
+  },
 	initSlides() {
 			$("#slides").slidesjs({
 				width: 648,

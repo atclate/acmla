@@ -3,7 +3,7 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
-		img: attr('string'),
-		width: attr('string'),
-		height: attr('string')
+		img: DS.attr('string'),
+		width: DS.attr('string'),
+		height: DS.attr('string')
 });

@@ -3,12 +3,14 @@ $dir    = 'img/gallery/2014 slides/thumbnails';
 $files = scandir($dir);
 
 $accept = $_SERVER['HTTP_ACCEPT'];
+header('Access-Control-Allow-Origin: *');
 if (($accept != NULL) && (strpos($accept, 'application/json') !== false)) {
 	header('Content-Type: application/json');
 	echo "[";
 
 	function format_json($a)
 	{
+		global $dir;
 		return "{\"src\":\"".$dir."/".$a."\", \"width\":\"648\", \"height\":\"250\"}"."\n";
 	}
 	$array = array_filter($files, function($item) {return $item != "." && $item != "..";});

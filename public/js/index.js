@@ -1,6 +1,6 @@
 
 $( document ).ready(function() {
-	$("#slides").slidesjs({
+/*	$("#slides").slidesjs({
 		width: 648,
 		height: 250,
 		//auto: 3000,
@@ -25,7 +25,7 @@ $( document ).ready(function() {
 	$(".pop").on("click", function() {
 		$('#imagepreview').attr('src', $(this).attr('expanded')); // here asign the image to the modal when the user click the enlarge link
 		$('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
-	});
+	});*/
 });
 
 function addHash(str) {
