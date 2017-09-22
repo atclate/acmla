@@ -19,6 +19,7 @@ Router.map(function() {
   this.route('gallery');
   this.route('news');
   this.route('contactus');
+  this.route('north_america_2017');
 });
 
 export default Router;

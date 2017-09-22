@@ -22,7 +22,7 @@ export default Ember.Component.extend({
         }
         Ember.run.next(component, 'initSlides');
       }, function(error) {
-      	Ember.console.log(error);
+        Ember.console.log(error);
       });
     },
     initSlides() {
@@ -46,11 +46,6 @@ export default Ember.Component.extend({
                     restartDelay: 200 
                 },
                 navigation: false
-            });
-
-            Ember.$(".pop").on("click", function() {
-                Ember.$('#imagepreview').attr('src', Ember.$(this).attr('expanded')); // here asign the image to the modal when the user click the enlarge link
-                Ember.$('#imagemodal').modal('show'); // imagemodal is the id attribute assigned to the bootstrap modal, then i use the show function
             });
     }
 });

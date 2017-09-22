@@ -8,6 +8,7 @@ module.exports = function(defaults) {
     // Add options here
   });
   app.import('bower_components/bootstrap/dist/css/bootstrap.css');
+  app.import('bower_components/bootstrap/dist/js/bootstrap.js');
   app.import('bower_components/jquery/dist/jquery.js');
   //app.import('bower_components/jquery.lazyload/jquery.lazyload.js');
 
