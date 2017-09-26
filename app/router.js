@@ -20,6 +20,7 @@ Router.map(function() {
   this.route('news');
   this.route('contactus');
   this.route('north_america_2017');
+  this.route('kids_dvd');
 });
 
 export default Router;
