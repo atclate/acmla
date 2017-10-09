@@ -4,7 +4,7 @@ export default Ember.Component.extend({
   didRender() {
 	var selected;
     Ember.$('ul.nav > li.navbar-button a').each(function () {
-        if (Ember.$(this).attr("href").endsWith(location.hash)) {
+        if (location.hash != '' && Ember.$(this).attr("href").endsWith(location.hash)) {
             var parent = Ember.$(this).closest('ul.nav > li.navbar-button');
             parent.addClass('open');
             selected = parent;
