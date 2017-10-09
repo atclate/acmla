@@ -10,6 +10,8 @@ module.exports = function(defaults) {
   app.import('bower_components/bootstrap/dist/css/bootstrap.css');
   app.import('bower_components/bootstrap/dist/js/bootstrap.js');
   app.import('bower_components/jquery/dist/jquery.js');
+  app.import('bower_components/blueimp-gallery/js/jquery.blueimp-gallery.min.js');
+  app.import('bower_components/blueimp-gallery/js/jquery.blueimp-gallery.min.js.map');
   //app.import('bower_components/jquery.lazyload/jquery.lazyload.js');
 
   // Use `app.import` to add additional libraries to the generated

@@ -26,6 +26,7 @@
   "dependencies": {
     "bootstrap": "~3.3.7",
     "jquery.lazyload": "~1.9.7",
-    "jquery": "~3.2.1"
+    "jquery": "~3.2.1",
+    "blueimp-gallery": "^2.27.0"
   }
 }
