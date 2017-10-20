@@ -11,7 +11,7 @@
 			{{#each model as |album|}}
 				<div class="left">
 					{{#link-to "gallery.view" (query-params id=album.folderName)}}
-						{{gallery-frame img=album.pictures[0] height=120 width=150}}
+						{{gallery-frame img=album.pictures height=120 width=150}}
 					{{/link-to}}
 				</div>
 			{{/each}}
