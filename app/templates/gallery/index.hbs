@@ -1,0 +1,37 @@
+<!--link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"-->
+<link rel="stylesheet" href="{{rootURL}}css/blueimp-gallery.min.css">
+<link rel="stylesheet" href="{{rootURL}}css/bootstrap-image-gallery.min.css">
+
+<div id="gallery">
+    <div class="text" style="width:80%;display:inline; float: left; margin-top:50px; margin-left:50px;">
+		<p class="header">相片重溫</p>
+	</div>
+	<div class="wide text-center">
+		<div class="center">
+			{{#each model as |album|}}
+				<div class="left">
+					{{#link-to "gallery.view" (query-params id=album.folderName)}}
+						{{gallery-frame img=album.pictures[0] height=120 width=150}}
+					{{/link-to}}
+				</div>
+			{{/each}}
+			<div class="left">
+				{{gallery-frame img="img/gallery/2014 slides/slide-02.JPG" height=120 width=150}}
+			</div>
+			<div class="left">
+				{{gallery-frame img="img/gallery/2014 slides/slide-02.JPG" height=120 width=150}}
+			</div>
+			<div class="left">
+				{{gallery-frame img="img/gallery/2014 slides/slide-02.JPG" height=120 width=150}}
+			</div>
+			<div class="left">
+				{{gallery-frame img="img/gallery/2014 slides/slide-02.JPG" height=120 width=150}}
+			</div>
+			<div class="left">
+				{{gallery-frame img="img/gallery/2014 slides/slide-02.JPG" height=120 width=150}}
+			</div>
+		</div>
+	</div>
+</div>
+<!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
+<script src="js/bootstrap-image-gallery.min.js"></script>

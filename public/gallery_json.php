@@ -22,6 +22,7 @@ foreach (array_filter(array_reverse($files_in_root, true), function($item) {
 		}
 		array_push($result, array('folderName'=>$sub, 'pictures'=>$pictures));
 }
+header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 echo json_encode($result);
 ?>

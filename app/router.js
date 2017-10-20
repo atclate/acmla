@@ -16,7 +16,9 @@ Router.map(function() {
   });
   this.route('products');
   this.route('supportus');
-  this.route('gallery');
+  this.route('gallery', function() {
+    this.route('view');
+  });
   this.route('news');
   this.route('contactus');
   this.route('north_america_2017');
