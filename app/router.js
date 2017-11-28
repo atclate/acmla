@@ -21,6 +21,7 @@ Router.map(function() {
   this.route('contactus');
   this.route('north_america_2017');
   this.route('kids_dvd');
+  this.route('2017-choir-retreat');
 });
 
 export default Router;
