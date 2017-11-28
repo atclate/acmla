@@ -8,6 +8,8 @@ const App = Ember.Application.extend({
   podModulePrefix: config.podModulePrefix,
   Resolver: Resolver,
   rootElement: '#container',
+  LOG_TRANSITIONS: true,
+  LOG_TRANSITIONS_INTERNAL: true,
 });
 
 Ember.LinkComponent.reopen({
