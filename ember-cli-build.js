@@ -3,6 +3,7 @@
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
+
 module.exports = function(defaults) {
   let app = new EmberApp(defaults, {
     // Add options here
@@ -12,6 +13,7 @@ module.exports = function(defaults) {
   app.import('bower_components/jquery/dist/jquery.js');
   app.import('bower_components/blueimp-gallery/js/jquery.blueimp-gallery.min.js');
   app.import('bower_components/blueimp-gallery/js/jquery.blueimp-gallery.min.js.map');
+  
   //app.import('bower_components/jquery.lazyload/jquery.lazyload.js');
 
   // Use `app.import` to add additional libraries to the generated

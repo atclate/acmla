@@ -22,6 +22,10 @@ Router.map(function() {
   this.route('north_america_2017');
   this.route('kids_dvd');
   this.route('2017-choir-retreat');
+  this.route('album1');
+  this.route('album2');
+  this.route('album3');
+  this.route('album4');
 });
 
 export default Router;
