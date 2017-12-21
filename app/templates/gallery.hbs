@@ -1,1 +1,58 @@
-{{outlet}}
+<!--link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"-->
+<link rel="stylesheet" href="{{rootURL}}css/blueimp-gallery.min.css">
+<link rel="stylesheet" href="{{rootURL}}css/bootstrap-image-gallery.min.css">
+
+<div id="gallery">
+    <div class="text" style="width:80%;display:inline; float: left; margin-top:50px; margin-left:50px;">
+		<p class="header">相片重溫</p>
+	</div>
+	<div class="wide text-center">
+		<div class="modal-dialog">
+			<div class="left">
+				{{#link-to "album1"}}
+					<img src="img/gallery/2014 slides/thumbnails/slide-02.JPG" alt="slide-02.JPG" class="img-responsive"/>	
+					<div style="display:block;">
+						<div style="float:left;width:130px;" class="divider"></div>
+						<p style="display:inline;" class="title">2014 slides</p>
+						<div style="float:right;width:130px;" class="divider"></div>
+					</div>
+				{{/link-to}}
+			</div>
+			<p class="verticalSpace">&nbsp;</p>
+			<div class="left">
+				{{#link-to "album2"}}
+					<img src="img/gallery/2016-10-08 CBC/thumbnails/ACMLA 10-8-2016 (57).JPG" alt="ACMLA 10-8-2016 (57).JPG" class="img-responsive"/>	
+					<div style="display:block;">
+						<div style="float:left;width:130px;" class="divider"></div>
+						<p style="display:inline;" class="title">ACMLA 2016-10-08 CBC</p>
+						<div style="float:right;width:130px;" class="divider"></div>
+					</div>
+				{{/link-to}}
+			</div>
+			<p class="verticalSpace">&nbsp;</p>
+			<div class="left">
+				{{#link-to "album3"}}
+					<img src="img/gallery/2016-10-09 CEC/thumbnails/ACMLA 10-9-2016 (302).JPG" alt="ACMLA 2016-10-09 (302).JPG" class="img-responsive"/>	
+					<div style="display:block;">
+						<div style="float:left;width:130px;" class="divider"></div>
+						<p style="display:inline;" class="title">ACMLA 2016-10-09 CEC</p>
+						<div style="float:right;width:130px;" class="divider"></div>
+					</div>
+				{{/link-to}}
+			</div>
+			<p class="verticalSpace">&nbsp;</p>
+			<div class="left">
+				{{#link-to "album4"}}
+					<img src="img/gallery/CEC-2016-齊唱金曲夜/thumbnails/ACMLA 10-9-2016 (23).JPG" alt="ACMLA 10-9-2016 (23).JPG" class="img-responsive"/>	
+					<div style="display:block;">
+						<div style="float:left;width:130px;" class="divider"></div>
+						<p style="display:inline;" class="title">CEC-2016-齊唱金曲夜</p>
+						<div style="float:right;width:130px;" class="divider"></div>
+					</div>
+				{{/link-to}}
+			</div>
+		</div>
+	</div>
+</div>
+<!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script-->
+<script src="js/bootstrap-image-gallery.min.js"></script>

@@ -274,6 +274,15 @@ ul#topnav li.dropdown:active a.dropdown-toggle {
 	margin-bottom: 3px;
 }
 
+.horizontal-poster {
+	width:488px;
+	height:277px;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
 .large-rect-poster {
 	width:600px;
 	height:400px;
@@ -447,4 +456,8 @@ table {
 		position:relative;
 		top:-214px;
 		z-index: -1;
+}
+
+.verticalSpace {
+ margin-bottom: 1cm;
 }
