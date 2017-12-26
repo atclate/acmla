@@ -3,8 +3,12 @@
 <link rel="stylesheet" href="{{rootURL}}css/bootstrap-image-gallery.min.css">
 <style>
  
-  #borderimg {	
-	border: 20px  solid transparent;
+  #borderimg {	 
+	border-style: solid;      
+	-moz-border-image: url(img/frame.png)20 repeat;
+	-webkit-border-image: url(img/frame.png) 20 repeat;	
+	-o-border-image: url(img/frame.png) 20 repeat;
+	border-top-width: 20px;
 	border-bottom-width: 27px;
 	border-left-width: 16px;
 	border-right-width: 16px;
