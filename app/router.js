@@ -26,6 +26,13 @@ Router.map(function() {
   this.route('album2');
   this.route('album3');
   this.route('album4');
+  this.route('album5');
+  this.route('album6');
+  this.route('album7');
+  this.route('album8');
+  this.route('album9');
+  this.route('album10');
+  this.route('album11');
 });
 
 export default Router;
