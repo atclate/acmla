@@ -3,25 +3,25 @@ import Ember from 'ember';
 export default Ember.Route.extend({
 	model() {
 		return [		 
-			'DSC01390.JPG',   
-			'DSC04390.JPG',   
-			'DSC05390.JPG',
-			'DSC06390.JPG',   
-			'DSC07390.JPG',   
-			'DSC08390.JPG',   
-			'DSC09190.JPG',   
-			'DSC09290.JPG',
-			'DSC09356.JPG',   
-			'DSC09369.JPG',   
-			'DSC09372.JPG',   
-			'DSC09379.JPG',   
-			'DSC09381.JPG',
-			'DSC09385.JPG',   
-			'DSC09388.JPG',   
-			'DSC09390.JPG',   
-			'DSC09490.JPG',   
-			'DSC09590.JPG',
-			'DSC09790.JPG'  
+			'DSC01390.jpg',   
+			'DSC04390.jpg',   
+			'DSC05390.jpg',
+			'DSC06390.jpg',   
+			'DSC07390.jpg',   
+			'DSC08390.jpg',   
+			'DSC09190.jpg',   
+			'DSC09290.jpg',
+			'DSC09356.jpg',   
+			'DSC09369.jpg',   
+			'DSC09372.jpg',   
+			'DSC09379.jpg',   
+			'DSC09381.jpg',
+			'DSC09385.jpg',   
+			'DSC09388.jpg',   
+			'DSC09390.jpg',   
+			'DSC09490.jpg',   
+			'DSC09590.jpg',
+			'DSC09790.jpg'  
 			];	
 	}
 });
