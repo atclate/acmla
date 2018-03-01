@@ -33,7 +33,6 @@ Router.map(function() {
   this.route('album9');
   this.route('album10');
   this.route('album11');
-  this.route('2018-evangelistic');
 });
 
 export default Router;
