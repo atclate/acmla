@@ -39,7 +39,7 @@ export default Ember.Component.extend({
                 play: {
                     active: false,
                     effect: "slide",
-                    interval: 8000,
+                    interval: 3000,
                     auto: true,
                     swap: true,
                     pauseOnHover: false,
