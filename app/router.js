@@ -34,6 +34,7 @@ Router.map(function() {
   this.route('album10');
   this.route('album11');
   this.route('donate');
+  this.route('donateReturn');
 });
 
 export default Router;
