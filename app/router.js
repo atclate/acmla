@@ -15,7 +15,7 @@ Router.map(function() {
     this.route('budget', { path: '/budget' });
   });
   this.route('products');
-  this.route('supportus');
+  this.route('donate');
   this.route('gallery');
   this.route('news');
   this.route('contactus');
