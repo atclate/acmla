@@ -33,6 +33,9 @@ Router.map(function() {
   this.route('album9');
   this.route('album10');
   this.route('album11');
+  this.route('album12');
+  this.route('album13');
+  this.route('album14');
   this.route('donate');
   this.route('donateReturn');
 });
